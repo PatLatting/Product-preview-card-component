@@ -1,0 +1,101 @@
+/* css reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body */
+body {
+    background-color: hsl(30, 38%, 92%);
+}
+/* description  */
+h1,h3,p {
+    margin: 1.25rem 2rem;
+    justify-content: left;
+}
+/* cart icon  */
+i {
+    display: flex;
+    position: relative;
+    right: .7rem;
+}
+/* product card */
+#card {
+    display: flex;
+    position: relative;
+    top: 12.5rem;
+    height: 25.5rem;
+    width: 34rem;
+    margin: 0 auto;
+}
+/* product image */
+.productImage {
+    border-top-left-radius: .3125rem;
+    border-bottom-left-radius: .3125rem;
+}
+/* product description */
+.productDescription {
+    background-color: hsl(0, 0%, 100%);
+    border-top-right-radius: .3125rem;
+    border-bottom-right-radius: .3125rem;
+}
+/* product subheading */
+.productSubHeading {
+    color: hsl(228, 12%, 48%);
+    margin-top: 3rem;
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .5rem;
+}
+/* product heading */
+.productHeading {
+    font-family: fraunces, sans-serif;
+    font-size: 2rem;
+}
+/* product description */
+.description {
+    color: hsl(228, 12%, 48%);
+    font-family: montserrat, sans-serif;
+    font-size: .875rem;
+    margin-right: 1rem;
+}
+/* price */
+.discountPrice {
+    color: hsl(158, 36%, 37%);
+    font-family: fraunces, sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-left: 2rem;
+}
+.originalPrice {
+    position: absolute;
+    margin-top: .75rem;
+    margin-left: 1.25rem;
+    text-decoration: line-through;
+}
+/* cart */
+.cartButton {
+    display: block;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(158, 36%, 37%);
+    width: 80%;
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    border: none;
+    border-radius: .2rem;
+    margin-top: .75rem;
+    margin-left: 2rem;
+    padding: .3125rem;
+
+}
+/* attribution */
+.attribution {
+    display: block;
+    position: relative;
+    top: 13.125rem;
+    font-size: .6875rem; text-align: center;
+ }
+.attribution a {
+    color: hsl(228, 45%, 44%);
+ }
